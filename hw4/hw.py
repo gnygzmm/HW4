@@ -27,7 +27,14 @@ my_str = """It is a truth universally acknowledged, that a single man in possess
 
 words = my_str.split()
 print(words)
-
+"""
+biraz kopya
+"""
+my_dict = {}
+for word in words:
+    if word not in my_dict:
+        my_dict[word] = 1
+        
 #for i in range(len(words)):
 #    print(f"""words[i] = {my_str.count(words[i])}""")
 
