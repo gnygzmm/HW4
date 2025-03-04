@@ -40,4 +40,3 @@ for i in range(3):
     a = [".", ",", "?"]
     b = my_str.count(a[i])
     print(a[i], b)
-
